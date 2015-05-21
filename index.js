@@ -35,6 +35,15 @@ var supports = [
  'react'
 ];
 
+/**
+ * renders via Consolidate.js and wraps value in a Promise
+ *
+ * @param {Function} render - render function
+ * @param {string} template - template string or path
+ * @param {Object} locals - local variables
+ * @param {Function} callback - optional callback, will not return promise if present
+ * @returns {Promise} promise which resolves to HTML string or error
+ */
 function renderWithPromise(render, template, locals, fn) {
   return new Promise(function (res, rej) {
     var callback = fn || function (err, html) {
