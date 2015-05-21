@@ -1,0 +1,30 @@
+{
+  "name": "consolidate-p",
+  "version": "1.0.0",
+  "description": "A Promise wrapper for Consolidate.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alexsomeoddpilot/consolidate-p.git"
+  },
+  "keywords": [
+    "Consolidate"
+  ],
+  "author": "Alex Robertson <alex@someoddpilot.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexsomeoddpilot/consolidate-p/issues"
+  },
+  "homepage": "https://github.com/alexsomeoddpilot/consolidate-p#readme",
+  "dependencies": {
+    "consolidate": "^0.12.1",
+    "q": "^1.4.1"
+  },
+  "devDependencies": {
+    "handlebars": "^3.0.3",
+    "mocha": "^2.2.5"
+  }
+}
