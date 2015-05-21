@@ -1,7 +1,7 @@
 # consolidate-p
 A Promise wrapper for Consolidate.js
 
-```
+```javascript
 var consolidateP = require('consolidate-p');
 
 consolidateP.handlebars.render('foo {bar}', {bar: 'baz'})
